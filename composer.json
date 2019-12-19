@@ -1,15 +1,15 @@
 {
-    "name": "networkteam/neos-sentryclient",
+    "name": "unikka/legacy-neos-sentryclient",
     "type": "neos-package",
     "license": "MIT",
-    "description": "A sentry client for Neos CMS",
+    "description": "A sentry client for legacy Neos CMS versions",
     "require": {
-        "networkteam/sentryclient": "~4.0",
-        "neos/neos": "~3.0"
+        "networkteam/sentryclient": "~3.2",
+        "neos/neos": "~2.0"
     },
     "autoload": {
         "psr-4": {
-            "Networkteam\\Neos\\SentryClient\\": "Classes"
+            "Unikka\\Neos\\SentryClient\\": "Classes"
         }
     }
 }

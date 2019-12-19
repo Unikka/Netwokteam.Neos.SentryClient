@@ -1,5 +1,5 @@
 <?php
-namespace Networkteam\Neos\SentryClient\Aspect;
+namespace Unikka\Neos\SentryClient\Aspect;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Aop\JoinPointInterface;
