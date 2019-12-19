@@ -1,10 +1,10 @@
 <?php
 namespace Unikka\Neos\SentryClient\Aspect;
 
-use Neos\Flow\Annotations as Flow;
-use Neos\Flow\Aop\JoinPointInterface;
-use Neos\Fusion\Core\ExceptionHandlers\AbsorbingHandler;
+use TYPO3\Flow\Annotations as Flow;
+use TYPO3\Flow\Aop\JoinPointInterface;
 use Networkteam\SentryClient\ErrorHandler;
+use TYPO3\TypoScript\Core\ExceptionHandlers\AbsorbingHandler;
 
 /**
  * @Flow\Aspect
@@ -23,7 +23,7 @@ class FusionHandlerAspect
      *
      * Ignores the exception, if it was handled by an AbsorbingHandler.
      *
-     * @Flow\After("within(Neos\Fusion\Core\ExceptionHandlers\AbstractRenderingExceptionHandler) && method(.*->handle())")
+     * @Flow\After("within(TYPO3\TypoScript\Core\ExceptionHandlers\AbstractRenderingExceptionHandler) && method(.*->handle())")
      * @param JoinPointInterface $joinPoint
      */
     public function captureException(JoinPointInterface $joinPoint)
