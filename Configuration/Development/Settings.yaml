@@ -1,0 +1,5 @@
+TYPO3:
+  Flow:
+    error:
+      exceptionHandler:
+        className: 'Unikka\Neos\SentryClient\Handler\DebugExceptionHandler'

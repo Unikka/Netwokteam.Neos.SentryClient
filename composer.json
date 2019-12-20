@@ -4,7 +4,9 @@
     "license": "MIT",
     "description": "A sentry client for legacy Neos CMS versions",
     "require": {
-        "sentry/sentry": "~2.0",
+        "php": "~7.1",
+        "sentry/sdk": "^2.0",
+        "jenssegers/agent": "^2.6",
         "neos/neos": "~2.0"
     },
     "autoload": {

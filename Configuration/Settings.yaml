@@ -1,0 +1,17 @@
+TYPO3:
+  Flow:
+    error:
+      exceptionHandler:
+        className: 'Unikka\Neos\SentryClient\Handler\ProductionExceptionHandler'
+
+    object:
+      excludeClasses:
+        'monolog.monolog': ['.*']
+        'sentry.sentry': ['.*']
+
+Unikka:
+  Neos:
+    SentryClient:
+      # The Sentry DSN
+      dsn: ''
+      release: '%env:FLOW_RELEASE%'

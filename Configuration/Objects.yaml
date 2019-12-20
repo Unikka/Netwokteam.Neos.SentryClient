@@ -1,0 +1,3 @@
+Unikka\Neos\SentryClient\Context\UserContextServiceInterface:
+  scope: singleton
+  className: Unikka\Neos\SentryClient\Context\PartyUserContext
