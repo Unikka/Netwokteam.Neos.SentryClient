@@ -49,7 +49,7 @@ Development:
 ------------
 
 This package is managed on GitHub. Feel free to get in touch at https://github.com/Unikka/Unikka.Legacy.Neos.SentryClient.
-This package is based on the Netwokteam.Neos.SentryClient.
+This package is based on the [Netwokteam.Neos.SentryClient](https://github.com/networkteam/Networkteam.SentryClient).
 
 License:
 --------
