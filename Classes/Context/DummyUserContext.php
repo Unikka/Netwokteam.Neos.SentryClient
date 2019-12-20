@@ -2,9 +2,16 @@
 
 namespace Unikka\Neos\SentryClient\Context;
 
-/***************************************************************
- *  (c) 2016 networkteam GmbH - all rights reserved
- ***************************************************************/
+/*
+ * This file is part of the Unikka Legacy.Neos.SentryClient package.
+ *
+ * (c) unikka
+ *
+ * This package is Open Source Software. For the full copyright and license
+ * information, please view the LICENSE file which was distributed with this
+ * source code.
+ */
+
 class DummyUserContext implements UserContextServiceInterface
 {
 
